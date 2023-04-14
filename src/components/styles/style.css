@@ -1,0 +1,308 @@
+/*  */
+
+*
+{
+    background-color: transparent;
+    margin: 0;
+    font-family: secondFont;
+    cursor: auto;
+}
+
+body
+{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+html{
+
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: rgb(40, 40, 40);
+}
+
+::selection {
+    color: white;
+    background: rgb(40, 40, 40);
+}
+
+#locker
+{
+    overflow: visible;
+}
+
+.unselect
+{
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+/* Page */
+
+.page
+{
+    background-color: rgb(36, 36, 36);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ration_container
+{
+    width: 100%;
+    height: auto;
+}
+
+.box_mainPage_containers
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+#box_tittle
+{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15vh 0;
+    justify-content: center;
+    cursor: initial !important;
+}
+
+#box_home
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#box_items
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 50vh 0;
+}
+
+#box_items div
+{
+    position: inherit;
+    background-repeat: none;
+    width: 100%;
+    height: 56.25vw;
+    background-position: center;
+    transition: transform .2s;
+    background-size: 100% 100%;   
+    cursor: pointer;
+}
+
+#box_items div:nth-child(2)
+{
+    height: 15vw;
+    background-position: center;
+    transition: transform .2s;
+    background-size: 100% 100%;   
+    cursor: pointer;
+}
+
+.miniGap
+{
+    width: 100%;
+    height: 5vh;
+}
+
+/* Footer */
+
+.Footer div
+{
+    background-color: black;
+    position: relative;
+
+}
+
+.Footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    background-color: black;
+    color: white;
+    align-items: center;
+    z-index: 0;
+}
+
+.Footer a
+{
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    text-align: center;
+}
+
+.MainTextFooter
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 4.16666vw;
+    padding: 2vh 0 1vh 0;
+}
+
+.MainTextFooter a
+{
+    padding: 0 3vh;
+    opacity: 100%;
+    transition: opacity 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.MainTextFooter a:hover
+{
+    opacity: 70%;
+} 
+
+.SecondTextFooter
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1.4583vw;
+    padding-top: 0;
+}
+
+.SecondTextFooter a
+{
+    padding: 0 3vh;
+    opacity: 100%;
+    transition: opacity 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.SecondTextFooter a:hover
+{
+    opacity: 70%;
+}
+
+.LogoFooter
+{
+    padding: 10vh 0 0 0;
+}
+
+.LogoFooter a
+{
+    font-size: 2.5vw;
+    font-family: Social;
+    cursor: crosshair;
+}
+
+.LastIconFooter
+{
+    padding-bottom: 3vh;
+}
+
+.LastIconFooter a
+{
+    font-size: 1.2vw;
+    cursor: crosshair;
+}
+
+/* Names */
+
+/* PUSH */
+
+@-webkit-keyframes push-on-hover {
+    50% {
+      -webkit-transform: scale(0.95);
+      transform: scale(0.95);
+    }
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+@keyframes push-on-hover {
+50% {
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+}
+100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+}
+.push-on-hover {
+display: inline-block;
+vertical-align: middle;
+-webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);
+box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.push-on-hover:hover, .push-on-hover:focus, .push-on-hover:active {
+-webkit-animation-name: push-on-hover;
+animation-name: push-on-hover;
+-webkit-animation-duration: 0.3s;
+animation-duration: 0.3s;
+-webkit-animation-timing-function: linear;
+animation-timing-function: linear;
+-webkit-animation-iteration-count: 1;
+animation-iteration-count: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query's */
+
+/* 1400px */
+
+@media only screen and (max-width: 1400px) {
+    
+} 
+
+/* 850px */
+
+@media only screen and (max-width: 850px) and (min-height: 600px)
+{
+
+   
+    @media only screen and (max-height: 500px)
+    {
+       
+    }
+}
+
+@media only screen and (min-width: 2560px)
+{
+    
+}

@@ -1,0 +1,49 @@
+
+/* @font-face {
+  font-family: "mainFont";
+  src: local("mainFont"), url(./fonts/mainFont.ttf) format('truetype');
+  font-weight: normal;
+}
+
+@font-face
+{
+  font-family: "secondFont";
+  src: local("secondFont"), url(./fonts/SecondFont.otf) format('opentype');
+  font-weight: normal;
+} */
+
+/* @font-face
+{
+  font-family: "Social";
+  src: local("Social"), url(./fonts/Socials.otf) format('opentype');
+  font-weight: normal;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: lightgray;
+}
+
+img {max-width:100%;}
+
+body
+{
+  background-color: lightgray;
+  margin: 30px;
+  font-family: font2;
+}
+
+select,
+label,
+dd,
+button {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+select,
+button {
+  cursor: pointer;
+}
